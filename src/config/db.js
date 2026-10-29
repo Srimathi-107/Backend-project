@@ -1,5 +1,6 @@
 let mongoose =require("mongoose")
 let url=process.env.URL
+require("dotenv").config()
 
 let mongodbconnection=async ()=>{
     try{
